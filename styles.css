@@ -1,0 +1,93 @@
+main{
+    margin: auto;
+}
+header, nav, main, footer {
+    width: 90%;
+    max-width: 1200px;
+    margin:auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header .logo img {
+    width: 50px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: all 1s linear;
+}
+
+a:hover{
+background-color: rgb(45, 227, 106);
+border-radius: 20px;
+padding: 4px;
+margin: 4px;
+
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#nosotros { 
+    background-color: #e3f2fd; 
+}
+#servicios { 
+    background-color: #f1f8e9; 
+}
+#galerias { 
+    background-color: #fff3e0; 
+}
+#contacto { 
+    background-color: #fce4ec; 
+}
+
+.media {
+    
+    max-width: 600px;
+    height: auto;
+ 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #eeeeee;
+    border-top: 1px solid #ddd;
+}
